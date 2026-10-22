@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Choco Aura</title>
+
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <!-- LOGO -->
+
+        <a href="index.html" class="logo-enlace">
+
+            <img src="img/logo.png" alt="Logo Choco Aura" class="logo">
+
+        </a>
+
+
+        <!-- MENÚ -->
+
+        <nav class="menu">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Inicio
+            </a>
+
+            <a href="nosotros.html">
+                <i class="fa-solid fa-heart"></i>
+                Nosotros
+            </a>
+
+            <a href="productos.html">
+                <i class="fa-solid fa-box-open"></i>
+                Productos
+            </a>
+
+            <a href="contacto.html">
+                <i class="fa-solid fa-envelope"></i>
+                Contacto
+            </a>
+            
+<a href="carrito.html">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Carrito
+    <span id="contador-carrito">0</span>
+</a>
+
+
+           
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= CONTENIDO ================= -->
+
+    <main>
+
+
+        <!-- TÍTULO -->
+
+        <section class="titulo-contacto">
+
+            <h1>Contáctanos</h1>
+
+            <p>
+                Si quieres conocer más sobre Choco Aura,
+                nuestros productos o nuestra experiencia de
+                chocolaterapia, puedes escribirnos.
+            </p>
+
+        </section>
+
+
+
+        <!-- INFORMACIÓN Y FORMULARIO -->
+
+        <section class="contacto-contenedor">
+
+
+            <!-- ================= INFORMACIÓN ================= -->
+
+            <div class="informacion-contacto">
+
+                <h2>¡Escríbenos! 💗</h2>
+
+                <p class="texto-contacto">
+
+                    Puedes comunicarte con nosotros a través
+                    de nuestras redes sociales.
+
+                </p>
+
+
+                <!-- WHATSAPP -->
+
+                <div class="dato-contacto">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <div>
+
+                        <h3>WhatsApp</h3>
+
+                        <a href="https://wa.me/573011549419"
+                           target="_blank">
+
+                            <p>3011549419</p>
+
+                        </a>
+
+                        <a href="https://wa.me/573224699178"
+                           target="_blank">
+
+                            <p>3224699178</p>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- INSTAGRAM -->
+
+                <div class="dato-contacto">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <div>
+
+                        <h3>Instagram</h3>
+
+                        <a href="https://www.instagram.com/chocoaura_kit/"
+                           target="_blank">
+
+                            <p>@chocoaura_kit</p>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- TIKTOK -->
+
+                <div class="dato-contacto">
+
+                    <i class="fa-brands fa-tiktok"></i>
+
+                    <div>
+
+                        <h3>TikTok</h3>
+
+                        <a href="https://www.tiktok.com/@chocoaura_kit"
+                           target="_blank">
+
+                            <p>@chocoaura_kit</p>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= FORMULARIO ================= -->
+
+            <div class="formulario-contacto">
+
+                <h2>Envíanos un mensaje 💗</h2>
+
+
+        
+<form action="https://formsubmit.co/Chocoaura133@gmail.com"
+      method="POST"
+      id="formulario-choco">
+
+    <input type="hidden" name="_subject"
+           value="Nuevo mensaje de Choco Aura">
+
+    <input type="hidden" name="_captcha"
+           value="false">
+
+
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+
+
+
+                    <label for="telefono">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Escribe tu teléfono"
+                        required
+                    >
+
+
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Escribe tu correo"
+                        required
+                    >
+
+
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        placeholder="Escribe tu mensaje"
+                        required
+                    ></textarea>
+
+
+
+                    <button type="submit">Enviar mensaje</button>
+
+                       
+
+                   
+
+
+                </form>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+
+        <div class="footer-contenido">
+
+
+            <div class="footer-columna">
+
+                <h3>Choco Aura</h3>
+
+                <p>
+                    Chocolaterapia en la comodidad
+                    de tu hogar.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-columna">
+
+                <h3>Menú</h3>
+
+                <a href="index.html">Inicio</a>
+
+                <a href="nosotros.html">Nosotros</a>
+
+                <a href="productos.html">Productos</a>
+
+                <a href="contacto.html">Contacto</a>
+
+            </div>
+
+
+
+            <div class="footer-columna">
+
+                <h3>Síguenos</h3>
+
+                <a href="https://www.instagram.com/chocoaura_kit/"
+                   target="_blank">
+
+                    <p>
+                        <i class="fa-brands fa-instagram"></i>
+                        @chocoaura_kit
+                    </p>
+
+                </a>
+
+
+                <a href="https://www.tiktok.com/@chocoaura_kit"
+                   target="_blank">
+
+                    <p>
+                        <i class="fa-brands fa-tiktok"></i>
+                        @chocoaura_kit
+                    </p>
+
+                </a>
+
+
+                <a href="https://wa.me/573011549419"
+                   target="_blank">
+
+                    <p>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp
+                    </p>
+
+                </a>
+                  
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Choco Aura  
+            </p>
+
+        </div>
+
+
+    </footer>
+
+
+<script>
+function actualizarContadorCarrito() {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    let cantidad = carrito.reduce(function(total, producto) {
+        return total + Number(producto.cantidad || 0);
+    }, 0);
+
+    document.querySelectorAll("#contador-carrito").forEach(function(contador) {
+        contador.textContent = cantidad;
+    });
+}
+
+actualizarContadorCarrito();
+</script>
+
+</body>
+
+</html>
